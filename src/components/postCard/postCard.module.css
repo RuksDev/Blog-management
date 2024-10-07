@@ -1,0 +1,52 @@
+.container { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top {
+    display: flex;
+}
+
+.imgContainer { 
+    width: 90%;
+    height: 400px;
+    position: relative; 
+}
+
+.img {
+    object-fit: cover;
+}
+
+.dateContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+}
+
+.date {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 12px;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    width: 90%;
+}
+
+.desc {
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: gray;
+    width: 90%;
+
+}
+
+.link {
+    text-decoration: underline;
+}

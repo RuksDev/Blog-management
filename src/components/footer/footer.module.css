@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    color: gray;
+}
+
+  
+  .logo {
+    font-weight: bold; /* Add some styling for visibility */
+  }
+  
+  .text {
+    font-size: 12px; /* Adjust size for visibility */
+  }
+
+  @media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+}
+  
